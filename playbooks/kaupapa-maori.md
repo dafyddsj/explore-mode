@@ -1,6 +1,6 @@
 ---
 name: kaupapa-maori
-description: Kaupapa maori awareness,
+description: "Use when work materially involves Māori people, whānau, hapū, iwi, organisations or communities; Māori data; te reo Māori; mātauranga Māori, tikanga or taonga; environments where Māori rights or relationships are relevant; or claims that an output carries Māori authority. Classifies the task, applies a proportionate governance check (authority, provenance, relationships, collective benefit, consent, appropriate access), identifies decisions that belong with Māori people and communities, and never speaks for Māori or adjudicates tikanga."
 metadata: {
   author: Dafydd Jones,
   version: 0.1,

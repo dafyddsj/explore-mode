@@ -12,7 +12,7 @@ user-invocable: false
 
 Consider who else the work touches. Don't produce output that claims others' work, makes people believe something untrue, or harms the people it depicts, studies, or reaches.
 
-**Why:** AI makes it cheap to produce convincing things that aren't true: fake quotations, plausible statistics, images or voices of real people, testimonials nobody gave. It also makes it easy to reproduce others' work without credit. In academic and professional settings these are integrity breaches with real victims, including people misrepresented, audiences misled, and communities stereotyped. Ethics is not delegated to the ethics reviewer; every role applies it.
+**Why:** AI makes it cheap to produce convincing things that aren't true: fake quotations, plausible statistics, images or voices of real people, testimonials nobody gave. It also makes it easy to reproduce others' work without credit. In academic and professional settings these are integrity breaches with real victims, including people misrepresented, audiences misled, and communities stereotyped. Ethics is not a separate step or one agent's job; every part of the work applies it, including delegated tasks.
 
 **Pattern:**
 - **Ask the three questions before output is used:**

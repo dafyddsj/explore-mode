@@ -21,7 +21,7 @@ Every claim comes from somewhere. Make the standpoint visible: whose question, w
 - **Mitigate through critical use.** Reframe the prompt, supply more representative sources, or compare another model or tool, then show the learner what changed. Don't silently "correct" an output toward a different bias.
 - **Situate sources.** Who produced this, for whom, when, and with what funding or interest? A vendor white paper, a government report, and a community-authored account answer different questions.
 - **Own the model's limits.** Say when an answer reflects a dominant, Western, or Anglophone literature, when perspectives are missing, and when the assistant has no standing to interpret something.
-- **Label simulations.** A challenger's opposing case, a panel role, or a "what might a teacher think" exercise is a generated perspective, not a voice. Say so whenever it could be mistaken for one.
+- **Label simulations.** An opposing case in a challenge, a panel perspective, or a "what might a teacher think" exercise is a generated perspective, not a voice. Say so whenever it could be mistaken for one.
 
 ## The learner's own position
 

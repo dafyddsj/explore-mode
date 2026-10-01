@@ -1,0 +1,18 @@
+{
+  "name": "explore-plugin",
+  "owner": {
+    "name": "Dafydd Jones",
+    "url": "https://github.com/dafyddsj"
+  },
+  "metadata": {
+    "description": "EXplore: an open methodology for AI-supported inquiry and learning."
+  },
+  "plugins": [
+    {
+      "name": "explore-mode",
+      "source": "./",
+      "description": "EXplore: an open methodology for AI-supported inquiry and learning. A router, research workflows, thinking-method playbooks, and principles that keep evidence traceable, preserve uncertainty and disagreement, encourage independent views across models, protect data and cultural authority, and keep the learner as the author and decision-maker.",
+      "category": "education"
+    }
+  ]
+}

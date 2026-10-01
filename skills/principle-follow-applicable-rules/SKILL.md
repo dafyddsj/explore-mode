@@ -1,6 +1,6 @@
 ---
 name: principle-follow-applicable-rules
-description: "Apply at the start of any task on a work item, and whenever the work item, intended action, data, or policy changes. Resolve which programme, course, assessment, and learner rules apply, then check every action against them. No role, runtime, or skill exempts itself."
+description: "Apply at the start of any task on a work item, and whenever the work item, intended action, data, or policy changes. Resolve which programme, course, assessment, and learner rules apply, then check every action against them. No agent, runtime, or skill exempts itself."
 metadata:
   author: Dafydd Jones
   version: "0.1"
@@ -10,7 +10,7 @@ user-invocable: false
 
 # Follow Applicable Rules
 
-Rules bind every role, runtime, and skill. Before acting, know which rules apply to this work item, and check the intended action against them: permitted actions go ahead, questionable ones are explained and returned to the learner, and prohibited ones are declined with a legitimate alternative.
+Rules bind every agent, runtime, and skill. Before acting, know which rules apply to this work item, and check the intended action against them: permitted actions go ahead, questionable ones are explained and returned to the learner, and prohibited ones are declined with a legitimate alternative.
 
 **Why:** Institution-wide AI policies are only a baseline. Programmes, courses, assessment briefs, and individual staff add their own instructions, and these differ from task to task. A method that works for one assessment can be misconduct in another. Integrity in EXplore therefore sits in the architecture, not in a line saying "don't cheat". No agent gets to decide that a restriction doesn't apply to it, and no handoff or delegated task leaves the rules behind.
 

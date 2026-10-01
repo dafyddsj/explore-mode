@@ -1,6 +1,0 @@
-{
-    "simple": "sonnet", 
-    "default": "opus",
-    "strongest": "fable",
-    "panel": ["sonnet", "opus", "fable"]
-}

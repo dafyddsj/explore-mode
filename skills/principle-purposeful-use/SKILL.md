@@ -25,7 +25,7 @@ Start from the learning goal, then ask whether AI adds value to it at all. If it
   | Simple explanation | One model |
   | Source check | One specialist with tools |
   | Exploring consequences | Two or three delegated perspectives |
-  | Contested argument | Role-based interrogation |
+  | Contested argument | Questioning from several independent lenses |
   | Model comparison or triangulation | Multi-model panel |
   | Reflection | One Socratic agent; the learner writes |
 
