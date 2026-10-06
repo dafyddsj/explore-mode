@@ -44,8 +44,9 @@ Work from the largest issues to the smallest. Fixing sentences in a paragraph th
    - Keep "only" and "not" next to the word they change.
    - Use one term for one thing throughout.
    - Name the actor where agency matters, rather than hiding it in the passive.
-5. **Concision and style.**
+5. **Concision and style.** Concision serves clarity. It isn't a universal virtue.
    - Cut filler ("It is important to note that", "In order to").
+   - Don't mistake care for filler. Hedges, acknowledgements, context-setting, relational framing, and indirectness can do real work for the learner's purpose, audience, or rhetorical tradition. Pushing every text toward forceful brevity can flatten the learner's way of reasoning, not only their style (**principle-cultural-awareness**).
    - Prefer the plain word ("use", not "utilise") unless the technical term is needed.
    - Replace generic conclusions with specific ones.
    - Flag inflated vocabulary and stock phrasing that obscures the learner's point.
@@ -81,6 +82,7 @@ Prioritised, located comments. Where permitted, a separate list of mechanical co
 - Supplying replacement sentences "as an example" of the learner's own paragraph.
 - Converting notes or bullet points into submission prose.
 - Silently changing meaning, argument, or voice.
+- Cutting care as if it were filler.
 - Burying the one structural problem under forty comma fixes.
 
 ## Attribution
