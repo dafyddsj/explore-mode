@@ -105,7 +105,7 @@ Methods the workflows load when needed. Read the playbook in full before applyin
 - [academic-writing](../../playbooks/academic-writing.md). Feedback on the learner's own writing, never writing it for them.
 - [show-me-your-work](../../playbooks/show-me-your-work.md). Record formats for sources, claims, decisions, AI use, runs, handoffs, and releases.
 - [kaupapa-maori](../../playbooks/kaupapa-maori.md). Work that materially engages Māori people, knowledge, data, or rights.
-- [4e-plus](../../playbooks/4e-plus.md). Planned; not yet available. Do not apply.
+- [4e-plus](../../playbooks/4e-plus.md). Draft. How learners experience a learning technology (embodied, embedded, enacted, extended, affective), and whether it can stay relevant over time.
 
 ## Delegation
 
