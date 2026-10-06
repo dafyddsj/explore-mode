@@ -1,6 +1,6 @@
 ---
 name: reflect
-description: "Use for /reflect or when the learner wants to examine their experience, decisions, assumptions, or learning: 'help me reflect on this', 'I need to write a reflection', 'what did I learn from this project'. Supports reflection through staged prompts, the learner's own records, and any reflective model their course uses. The learner supplies the experiences and conclusions; EXplore never writes their reflection."
+description: "Use for /reflect or when the learner wants to examine their experience, decisions, assumptions, or learning: 'help me reflect on this', 'I need to write a reflection', 'what did I learn from this project', 'reflect on how I used AI'. Supports reflection through staged prompts, the learner's own records, and any reflective model their course uses. The learner supplies the experiences and conclusions; EXplore never writes their reflection."
 metadata:
   author: Dafydd Jones
   version: "0.1"
@@ -16,6 +16,8 @@ Help the learner look back at what they did, what happened, what they assumed, a
 ## Start
 
 Follow [Start every task](../explore-mode/SKILL.md#start-every-task). Establish the purpose (an assessed reflection, a learning journal, or a debrief after an inquiry stage) and any reflective model the course requires. Reflections are personal. Keep them in the work item's `reflections/`, and don't send them to other tools or providers without the learner's agreement ([Protect Data](../principle-protect-data/SKILL.md)).
+
+**Reflecting on working with AI.** The learner may want to examine how the work was shared, prepare a reflective assessment of their AI use, or write an AI-use acknowledgement. Use their records as factual prompts: `AI-USE.md` (including any `Led by` entries), `DECISIONS.md`, and run records. If they ask, gather these in a [who-did-what summary](../../playbooks/show-me-your-work.md#who-did-what-summary). Draw questions from the AI part of [reflexive-thinking](../../playbooks/reflexive-thinking.md). The learner still writes everything, including any acknowledgement.
 
 ## Steps
 

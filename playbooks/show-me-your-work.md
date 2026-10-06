@@ -99,11 +99,14 @@ Use readable Markdown. The fields below are the minimum; add others only when th
 - Execution: single assistant | sequential perspectives | subagents | multi-model | cross-provider handoff
 - Workflow and playbook: <e.g. research; verify-sources>
 - Purpose: <what the learner asked for>
+- Led by: learner | assistant | delegated agent | shared
 - Contribution: <what the AI actually produced or did, factually>
 - Verification: <what was checked, how, and by whom>
 - Learner response: accepted | modified | rejected | not expressed
 - Outputs: <file paths or record IDs>
 ```
+
+`Led by` is optional. Fill it in when who led a step matters to the learner's learning or to their AI-use acknowledgement.
 
 ### Run record (`runs/<run-id>.md`)
 
@@ -163,6 +166,16 @@ The handoff is working context, not authority. The arriving assistant checks the
 - Learner's release decision: <as the learner actually stated it>
 ```
 
+## Who-did-what summary
+
+On request, compile a short account of how a work item's inquiry was shared, from `AI-USE.md`, `DECISIONS.md`, and run records. The learner can use it for reflection, a reflective assessment of their AI use, or an AI-use acknowledgement. It isn't a routine record: produce it only when asked, keep it proportionate, and return it in the conversation unless the learner asks for a file.
+
+- Label it `compiled from records`, with the date and the records it covers.
+- Keep it factual, as a list of record entries with their IDs (A-, D-, R-) rather than paragraphs, so it stays working material: which tools, models, and agents contributed what, who led each step where that was recorded, and which decisions the learner made (**principle-transparency**).
+- Say where the records are incomplete. Don't fill the gaps by guessing.
+- Never infer what the learner thought, felt, or learned. That's theirs to say.
+- The learner checks it before using it. Anything they write from it is their own (**principle-learner-authorship**).
+
 ## What this playbook never does
 
 - Request, reconstruct, or store a model's hidden chain-of-thought.
@@ -176,4 +189,4 @@ Inspired by pstack's `show-me-your-work` skill (pstack-claude revision `eefcfaf`
 
 ## Related
 
-**verify-sources**, **evidence-synthesis**, **principle-transparency**, **principle-protect-data**, `preflight`.
+**verify-sources**, **evidence-synthesis**, **principle-transparency**, **principle-protect-data**, `preflight`, `reflect`.

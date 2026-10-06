@@ -25,9 +25,10 @@ Follow [Start every task](../explore-mode/SKILL.md#start-every-task): the goal, 
    - the kinds of evidence each needs;
    - where to look;
    - which methods apply;
+   - who does what: which parts the learner will lead, such as reading the key sources themselves, and what will be delegated;
    - the bounds: time, searches, and delegated tasks.
 
-   Write the plan to the work item's `notes/`. For a substantial inquiry, share the plan before running it.
+   Write the plan to the work item's `notes/`. For a substantial inquiry, share the plan before running it. Where handing a part to AI would change what the learner learns, give them that choice and its trade-off ([Learner Agency](../principle-learner-agency/SKILL.md)). Where it serves the learning, ask at the same time what they expect the evidence to show and what they know from their own context or practice that the sources may not. Record their answers as theirs. If they chose to read key sources themselves, invite their reading before showing them the synthesis, without pausing the rest of the run.
 3. **Gather evidence.** Run [search](../search/SKILL.md) per sub-question.
    - **Delegate:** where the environment allows, search sub-questions in parallel.
    - **Delegate for independence:** give one agent, or another model where available, the same question, constraints, and rules but not the findings so far. Ask it to look beyond the initial framing: adjacent fields, alternative terms, contrasting cases, less obvious sources, and the context behind consequential claims.
@@ -38,13 +39,14 @@ Follow [Start every task](../explore-mode/SKILL.md#start-every-task): the goal, 
    - **Delegate:** a separate agent, ideally on a different model, gives the most independent challenge.
 7. **Check the method.** Do the question, approach, evidence, and inference line up? Would the conclusions follow for the population and context the learner cares about?
 8. **Check people and culture.** Who is affected, whose perspectives and sources are missing, and do any data or cultural restrictions apply ([Cultural Awareness](../principle-cultural-awareness/SKILL.md), [Protect Data](../principle-protect-data/SKILL.md))?
-9. **Return research notes.** **Checkpoint:** the learner decides what the findings mean and what happens next.
+9. **Return research notes.** Where the learner recorded expectations, a reading, or context, set them beside the findings, labelled as theirs, rather than folding them in. **Checkpoint:** the learner decides what the findings mean and what happens next.
 10. **Record.** Update the sources, claims, and AI-use records, write a run record, and update the handoff if the work will continue ([show-me-your-work](../../playbooks/show-me-your-work.md)).
 
 ## Output
 
 Research notes in the work item's `notes/`:
 - the question and approach;
+- the learner's own reading and context, where given, labelled as theirs;
 - findings, each with a status and its sources;
 - disagreements;
 - gaps, and the coverage of the search (what was searched and what couldn't be reached);
