@@ -25,11 +25,11 @@ You don't need to learn them. The `/explore-mode` router picks what a task needs
 
 ## Install
 
-EXplore installs from this repository as a plugin marketplace: `dafyddsj/explore-plugin`.
+EXplore installs from this repository as a plugin marketplace: `dafyddsj/explore-mode`.
 
 ### ChatGPT (desktop)
 
-1. In **Settings → Plugins → Add**, add a marketplace using the source `dafyddsj/explore-plugin`.
+1. In **Settings → Plugins → Add**, add a marketplace using the source `dafyddsj/explore-mode`.
 2. Install the **EXplore** plugin. This installs all of its workflows, principles, and playbooks.
 
 ### Claude
@@ -37,11 +37,11 @@ EXplore installs from this repository as a plugin marketplace: `dafyddsj/explore
 In Claude Code, add the marketplace and install the plugin:
 
 ```text
-/plugin marketplace add dafyddsj/explore-plugin
+/plugin marketplace add dafyddsj/explore-mode
 /plugin install explore-mode@explore-plugin
 ```
 
-In the Claude desktop app, add the same marketplace (`dafyddsj/explore-plugin`) from the app's plugin settings, then install **EXplore**.
+In the Claude desktop app, add the same marketplace (`dafyddsj/explore-mode`) from the app's plugin settings, then install **EXplore**.
 
 ## Get started
 
