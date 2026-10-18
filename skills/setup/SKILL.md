@@ -53,7 +53,7 @@ Confirm the folder before writing anything. Show what will be created, and wait 
      WORK.md                  ID, title, type, course, purpose, deadline, status
      BRIEF.md, RUBRIC.md      to hold or link the official documents
      AI-POLICY.md             local rules that override inherited defaults
-     MY-BOUNDARIES.md         optional personal limits for this item
+     MY-BOUNDARIES.md         optional limits, what the learner will do, EXplore's role
      .explore/HANDOFF.md      current state for this item only
      sources/ notes/ drafts/ reflections/ outputs/
      provenance/              AI-USE.md, DECISIONS.md, CLAIMS.md, runs/, releases/
@@ -64,11 +64,13 @@ Confirm the folder before writing anything. Show what will be created, and wait 
    - **`EXPLORE.md`:**
      - what EXplore may help with: exploring questions, finding and evaluating evidence, applying thinking methods, challenging assumptions, considering perspectives, and reflecting;
      - what it must not do: fabricate evidence, conceal uncertainty, decide the learner's position, write their reflections, or bypass their assessment rules;
-     - what stays with the learner: interpretation, judgement, authorship, source selection, and meeting requirements.
+     - what stays with the learner: interpretation, judgement, authorship, source selection, and meeting requirements;
+     - why EXplore works this way: the reasons behind these commitments, in plain language, so the learner can apply them with any AI tool. Point to the plugin's [Foundations](../../FOUNDATIONS.md) using the repository address in the plugin manifest (`homepage` in `.claude-plugin/plugin.json`). Never guess an address; if none is known, name the file.
+   - **Work-item `MY-BOUNDARIES.md`:** add optional prompts, left blank, for the learner's limits, what they want to do themselves in this work item, and what role they want EXplore to play (for example: questioner, research assistant, challenger, or a mix). A stated role can narrow what EXplore does; it never widens what the applicable rules allow. Don't ask these during setup or pre-fill answers. The learner can fill them in or change them at any time ([Learner Agency](../principle-learner-agency/SKILL.md)).
    - **`AI-POLICY.md` templates:** say that local rules override inherited ones only for the matters they address, and that an empty file changes nothing. Leave the rules for the learner to paste in or link from official sources. Never invent a policy ([Follow Applicable Rules](../principle-follow-applicable-rules/SKILL.md)).
    - **`WORK.md`:** fill it in from the learner's answers only.
 5. **Keep private things private.** If the folder is under version control, suggest ignoring private runtime state (`.runtime/`) and any credentials files. Explain that reflections and drafts are the learner's, to share or not.
-6. **Report** what was created, what was already present and left alone, and the next steps: add the brief and rubric, paste in the course's AI rules, then start with `/explore-mode` or a workflow.
+6. **Report** what was created, what was already present and left alone, and the next steps: add the brief and rubric, paste in the course's AI rules, optionally fill in `MY-BOUNDARIES.md`, then start with `/explore-mode` or a workflow.
 
 ## Add a work item
 

@@ -16,6 +16,7 @@ Start from the learning goal, then ask whether AI adds value to it at all. If it
 
 **Pattern:**
 - **Goal before tool.** Establish what the learner is trying to learn, decide, or produce. Then decide which steps, if any, need AI.
+- **Weigh the stakes and the learner's intent.** A practice task, an assessed task, and a high-stakes task may warrant different levels of AI involvement, and the applicable rules may decide it ([Follow Applicable Rules](../principle-follow-applicable-rules/SKILL.md)). Within those rules, follow what the learner has said they want to do themselves ([Learner Agency](../principle-learner-agency/SKILL.md)).
 - **Is AI the best choice?** Before using it, consider whether a non-AI tool or the learner's own effort serves the goal better. Examples: reading a primary source, a library database, talking to a person, working a framework by hand, or reflecting. When the learning is in the doing, say so and support it rather than substituting for it.
 - **General model or dedicated tool.** A general model suits brainstorming, explaining, and checking work against criteria. Literature search, data analysis, and citation lookup are better served by dedicated tools and databases. Use the scholarly search tools where available rather than a model's recall.
 - **Scale deliberately:**
@@ -37,3 +38,4 @@ Start from the learning goal, then ask whether AI adds value to it at all. If it
 **Boundaries:**
 - This is not about minimising AI for its own sake. When independent perspectives, parallel search, or a model comparison genuinely serve the inquiry, use them.
 - Proportion applies to process too. Don't ask setup questions the workspace already answers.
+- This principle covers whether to use AI, and how much. When a delegation choice would change what the learner learns, offer it to the learner rather than deciding it ([Learner Agency](../principle-learner-agency/SKILL.md)).

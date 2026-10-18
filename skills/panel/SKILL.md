@@ -33,27 +33,28 @@ The purpose changes how the panel is set up.
 
    Assign different models where the environment allows. Keep the panel as small as the purpose allows ([Purposeful Use](../principle-purposeful-use/SKILL.md)).
 3. **For a model comparison,** control what you can. Give every participant the same question, the same brief, equivalent evidence, and equivalent tool access. Record what couldn't be controlled.
-4. **Run the independent first passes.** Each participant gets the question, the evidence pack, the rules, and its brief, but not the other participants' work. Follow the [delegation contract](../explore-mode/SKILL.md#delegation). Choose the mode the environment supports:
+4. **Offer the learner a first pass.** Where it serves the learning, invite the learner to write their own answer to the question before any participant runs. With parallel subagents, they can write it while the participants run. With sequential handoffs or one assistant taking each brief in turn, they write it before the first participant starts, so it stays independent. Label it as the learner's contribution and include it in the comparison, so they can see where they agree with the models and where they differ. Compare it; don't mark it ([Learner Agency](../principle-learner-agency/SKILL.md)). Keep it out of the evidence pack and the handoff. Share it with other participants only if the learner agrees and the destination's terms allow it ([Protect Data](../principle-protect-data/SKILL.md)).
+5. **Run the independent first passes.** Each participant gets the question, the evidence pack, the rules, and its brief, but not the other participants' work. Follow the [delegation contract](../explore-mode/SKILL.md#delegation). Choose the mode the environment supports:
    - parallel subagents on different models;
    - parallel subagents on one model;
    - sequential handoffs between applications, where the learner runs each participant in a different tool using the work item's handoff (see [Handoffs](../explore-mode/SKILL.md#handoffs-and-switching-providers));
    - one assistant taking each brief in turn.
 
    Each participant writes its own contribution file. Record the actual model for each contribution, or `unknown`.
-5. **Build the comparison before any synthesis.** Present it side by side, labelled with each participant's brief and model:
+6. **Build the comparison before any synthesis.** Present it side by side, labelled with each participant's brief and model, and with the learner's first pass, if they wrote one, labelled as theirs:
    - **Agreement:** what they share, who shares it, what they cite, and whether they rely on the same underlying sources.
    - **Disagreement:** the specific point, each position, and its type: fact, evidence quality, assumption, context, interpretation, or values. Separate direct contradiction from silence.
    - **Different approaches:** differences in source choice, scope, framing, questions raised, qualifications, and stated confidence, with links to the contributions.
    - **Unresolved:** what evidence could distinguish the positions, and what the learner needs to investigate or decide.
-6. **Explain the differences carefully.** Differences can come from the brief, the prompt, source access, tools, or prior context, not only from the model. If one model played every part, call the panel a perspective comparison. Don't infer hidden reasoning, stable model personalities, or general superiority from one run.
-7. **Optional clarification round.** Run one bounded round in which participants see the others' contributions and respond. Keep revised positions separate from first passes, so the learner can see who moved and why.
-8. **Synthesise, as the lead.** Combine the findings with [evidence-synthesis](../../playbooks/evidence-synthesis.md), keeping disagreements and attributions. The synthesis is research notes, not a verdict.
-9. **Return the panel.** **Checkpoint:** ask what the learner concludes about the question, and what they noticed about how the models behaved ([Human Judgement](../principle-human-judgement/SKILL.md)).
-10. **Record** the participants, briefs, models, execution mode, first passes, revisions, failures, and synthesis ([show-me-your-work](../../playbooks/show-me-your-work.md)).
+7. **Explain the differences carefully.** Differences can come from the brief, the prompt, source access, tools, or prior context, not only from the model. If one model played every part, call the panel a perspective comparison. Don't infer hidden reasoning, stable model personalities, or general superiority from one run.
+8. **Optional clarification round.** Run one bounded round in which participants see the others' contributions and respond. Keep revised positions separate from first passes, so the learner can see who moved and why. If the learner revises their answer after seeing the others, keep that separate from their first pass too.
+9. **Synthesise, as the lead.** Combine the findings with [evidence-synthesis](../../playbooks/evidence-synthesis.md), keeping disagreements and attributions. The synthesis is research notes, not a verdict.
+10. **Return the panel.** **Checkpoint:** ask what the learner concludes about the question, and what they noticed about how the models behaved ([Human Judgement](../principle-human-judgement/SKILL.md)).
+11. **Record** the participants, briefs, models, execution mode, first passes, revisions, failures, and synthesis ([show-me-your-work](../../playbooks/show-me-your-work.md)).
 
 ## Output
 
-- The side-by-side comparison (agreement, disagreement, approaches, unresolved), labelled with briefs and models.
+- The side-by-side comparison (agreement, disagreement, approaches, unresolved), labelled with briefs and models, including the learner's first pass if they wrote one.
 - The synthesis.
 - Links to each contribution.
 - Execution details: the mode, the models, what was controlled, and any failures.
@@ -63,6 +64,7 @@ The purpose changes how the panel is set up.
 
 - Every contribution is attributable.
 - First passes were independent, or it's stated that they weren't.
+- Where it served the learning, the learner was offered a first pass.
 - Agreements are checked for shared sources.
 - Brief effects and model effects are distinguished.
 - Disagreements survive the synthesis.

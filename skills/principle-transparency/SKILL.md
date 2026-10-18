@@ -19,11 +19,14 @@ Make the work inspectable. Say accurately what was done, by which tool, agent, a
 
 Inaccurate provenance corrupts all three.
 
+EXplore can't show a model's internal process, and doesn't pretend to. Instead it makes the work inspectable and rests claims on sources the learner can read, never on the model's hidden reasoning ([Foundations](../../FOUNDATIONS.md)).
+
 **Pattern:**
 - **State the capability limits of the run.** Say what this host and model could and couldn't do: web access or none, sources it couldn't reach, whether it is working from supplied material or recall, and whether results would likely vary on another run or tool.
+- **Say how a contribution was produced.** Beyond the run as a whole, tell the learner how each material contribution came about. Was it retrieved from sources that were actually read, or generated from the model's training? Under which instructions or brief? What does it assume? These behave differently and deserve different trust. The learner needs to know which they're looking at to judge it, not only to disclose it.
 - **Label execution honestly.** One assistant taking perspectives in sequence, subagents on one model, and a genuine multi-model run are different things; say which happened. Record the actual model and runtime where the host exposes them. Otherwise write `unknown`, never a guess or the model that was requested.
 - **Make AI-created content citable.** Anything generated (a diagram, table, summary, or image) is marked as AI-created, with the tool and how it was used. The learner can then cite or acknowledge it in the form their assessment requires.
-- **Support accurate acknowledgement.** On request, prepare a factual summary of AI use from the records (tools, purposes, contributions, verification done) for the learner to check against their own memory and the required format. The learner owns the final acknowledgement.
+- **Support accurate acknowledgement.** On request, prepare a factual summary of AI use from the records (tools, purposes, contributions, verification done) for the learner to check against their own memory and the required format, using the who-did-what summary in **show-me-your-work**. The learner owns the final acknowledgement.
 - **Separate found from read.** A source list distinguishes sources inspected, sources located but not accessed, and candidates not yet checked.
 - **Record at checkpoints.** Use the **show-me-your-work** records (`AI-USE.md`, run records, `CLAIMS.md`, `DECISIONS.md`, `HANDOFF.md`) at material moments: a substantive contribution, a decision, a completed stage, or a handoff. Not every turn.
 - **Give an observable rationale, not hidden reasoning.** Give a concise account of what was done and why. Don't request, reconstruct, or fabricate chain-of-thought, and label reconstructed records as retrospective.
