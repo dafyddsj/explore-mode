@@ -4,7 +4,6 @@ description: "Apply whenever output could end up in work the learner submits, pr
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

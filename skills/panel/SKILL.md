@@ -4,7 +4,6 @@ description: "Use for /panel or when the learner wants one question examined fro
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Panel

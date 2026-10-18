@@ -4,7 +4,6 @@ description: "Apply when an inquiry involves people, communities, places, langua
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

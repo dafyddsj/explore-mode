@@ -4,7 +4,6 @@ description: "Apply when sources, models, tools, or perspectives conflict, espec
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

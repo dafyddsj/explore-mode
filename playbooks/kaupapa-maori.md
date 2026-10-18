@@ -1,11 +1,9 @@
 ---
 name: kaupapa-maori
 description: "Use when work materially involves Māori people, whānau, hapū, iwi, organisations or communities; Māori data; te reo Māori; mātauranga Māori, tikanga or taonga; environments where Māori rights or relationships are relevant; or claims that an output carries Māori authority. Classifies the task, applies a proportionate governance check (authority, provenance, relationships, collective benefit, consent, appropriate access), identifies decisions that belong with Māori people and communities, and never speaks for Māori or adjudicates tikanga."
-metadata: {
-  author: Dafydd Jones,
-  version: 0.1,
-  contributors: []
-}
+metadata:
+  author: Dafydd Jones
+  version: "0.1"
 ---
 
 # Purpose
@@ -80,7 +78,7 @@ Consent, provenance, collective benefit, future use and authority to control are
 
 ### Restricted knowledge or Māori authority
 
-The task asks the model to disclose, reconstruct, imitate, legitimise or make a normative judgment about knowledge or practice for which appropriate authority has not been established.
+The task asks the model to disclose, reconstruct, imitate, legitimise or make a normative judgement about knowledge or practice for which appropriate authority has not been established.
 
 Do not fabricate authority.
 
@@ -135,7 +133,7 @@ Ask:
 
 Do not invent a supposed “benefit to Māori” to justify a predetermined project.
 
-Where benefit is a contested question, leave the judgment with the affected people.
+Where benefit is a contested question, leave the judgement with the affected people.
 
 ## 5. Manaakitanga: Respect, reciprocity and consent
 Ask:
@@ -175,7 +173,7 @@ When working with mātauranga:
 5. Do not present generated content as authentic mātauranga.
 6. Do not claim that an AI-generated practice, karakia, interpretation or protocol carries traditional authority.
 7. Prefer attributed Māori sources over generic secondary summaries when available.
-8. Where community-specific authority matters, identify the need for that authority rather than substituting the model's judgment.
+8. Where community-specific authority matters, identify the need for that authority rather than substituting the model's judgement.
 
 # Positionality and non-impersonation
 Never claim:

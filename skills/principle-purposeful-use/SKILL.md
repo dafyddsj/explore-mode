@@ -4,7 +4,6 @@ description: "Apply when choosing whether and how to use AI for a task: which wo
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

@@ -4,7 +4,6 @@ description: "Apply when proceeding would mean guessing about authority, consent
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

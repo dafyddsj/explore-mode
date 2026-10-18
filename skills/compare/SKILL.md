@@ -4,7 +4,6 @@ description: "Use for /compare or when the learner wants options weighed: 'compa
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Compare

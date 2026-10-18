@@ -4,7 +4,6 @@ description: "EXplore's front door for AI-supported inquiry and learning. Use fo
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # EXplore Mode
@@ -28,7 +27,7 @@ Inquiry with AI is shared work: the learner, models, agents, tools, and sources 
 
 The Principles section below grounds every trigger. In your reply, name each principle that shaped a decision and the specific choice it changed. Cite only principles whose leaf SKILL.md you read this session.
 
-Remaining triggers:
+Triggers:
 
 - A source, citation, quotation, or statistic is about to be relied on → [verify-sources](../../playbooks/verify-sources.md).
 - Two or more sources, agents, or models bear on the same question → [evidence-synthesis](../../playbooks/evidence-synthesis.md).
@@ -112,6 +111,10 @@ Methods the workflows load when needed. Read the playbook in full before applyin
 - [show-me-your-work](../../playbooks/show-me-your-work.md). Record formats for sources, claims, decisions, AI use, runs, handoffs, and releases.
 - [kaupapa-maori](../../playbooks/kaupapa-maori.md). Work that materially engages Māori people, knowledge, data, or rights.
 - [4e-plus](../../playbooks/4e-plus.md). Draft. How people think and feel with a solution (embodied, embedded, enacted, extended, affective, or the learner's own version), whether it can stay relevant over time, and, where AI is part of it, how thinking and responsibility are shared.
+
+## Tools
+
+Use the tools the host actually provides, and say which you used ([Transparency](../principle-transparency/SKILL.md)). EXplore adds one set of its own: optional scholarly search through OpenAlex and Semantic Scholar, described in [search](../search/SKILL.md#scholarly-search-tools). Prefer it to model recall for finding and checking academic sources. If it isn't loaded, fall back to web search and library databases.
 
 ## Delegation
 
@@ -213,11 +216,11 @@ When the learner returns with a contribution from another provider:
 
 ## Models
 
-Where the environment lets you choose models, the host's model hints in `models/` offer tiers:
-- `simple` for mechanical tasks;
-- `default` for most work;
-- `strongest` for consequential synthesis and judgement-heavy analysis;
-- `panel` for multi-model comparison.
+Where the environment lets you choose models, match the model to the task:
+- a fast, inexpensive model for mechanical tasks;
+- the default model for most work;
+- the strongest available model for consequential synthesis and judgement-heavy analysis;
+- models from different families for a panel or an independent challenge.
 
 Prefer different model families when independence is the point. Record the model actually used. Never describe a model you could not select, or present one model playing several parts as a multi-model result.
 

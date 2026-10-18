@@ -4,7 +4,6 @@ description: "Use for /review or when the learner asks for feedback on their own
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Review

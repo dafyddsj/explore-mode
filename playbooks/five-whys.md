@@ -4,7 +4,6 @@ description: "Use when the learner wants to understand the causes of a problem, 
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Five Whys

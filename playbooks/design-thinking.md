@@ -4,7 +4,6 @@ description: "Use when the learner is working on a human-centred problem and wan
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Design Thinking

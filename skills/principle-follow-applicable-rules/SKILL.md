@@ -4,7 +4,6 @@ description: "Apply at the start of any task on a work item, and whenever the wo
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

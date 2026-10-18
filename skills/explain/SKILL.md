@@ -4,7 +4,6 @@ description: "Use for /explain or when the learner wants to understand something
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Explain

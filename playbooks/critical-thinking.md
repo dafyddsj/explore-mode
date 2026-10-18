@@ -4,7 +4,6 @@ description: "Use when examining a claim, argument, source, or AI output, includ
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Critical Thinking

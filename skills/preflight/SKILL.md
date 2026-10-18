@@ -4,7 +4,6 @@ description: "Use for /preflight or when the learner wants final checks before s
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Preflight

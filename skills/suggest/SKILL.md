@@ -4,7 +4,6 @@ description: "Use for /suggest or when the learner wants to know what to read, w
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Suggest

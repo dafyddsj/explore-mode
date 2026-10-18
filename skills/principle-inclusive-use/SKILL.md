@@ -4,7 +4,6 @@ description: "Apply when recommending tools, models, or paid features, when work
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

@@ -4,9 +4,8 @@
     "name": "Dafydd Jones",
     "url": "https://github.com/dafyddsj"
   },
-  "metadata": {
-    "description": "EXplore: an open methodology for AI-supported inquiry and learning."
-  },
+  "description": "EXplore: an open methodology for AI-supported inquiry and learning.",
+  "version": "0.1.0",
   "plugins": [
     {
       "name": "explore-mode",

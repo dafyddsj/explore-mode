@@ -4,7 +4,6 @@ description: "Use for /summarise or when the learner wants material condensed: '
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Summarise

@@ -4,7 +4,6 @@ description: "Apply when deciding how work is shared between the learner and AI:
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

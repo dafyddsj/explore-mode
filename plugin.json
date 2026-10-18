@@ -6,5 +6,36 @@
   "author": {
     "name": "Dafydd Jones",
     "url": "https://github.com/dafyddsj"
+  },
+  "homepage": "https://github.com/dafyddsj/explore-mode",
+  "repository": "https://github.com/dafyddsj/explore-mode",
+  "keywords": [
+    "research",
+    "inquiry",
+    "education",
+    "academic-integrity",
+    "critical-thinking",
+    "provenance",
+    "multi-model",
+    "learning",
+    "scholarly-search"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "EXplore",
+        "shortDescription": "AI-supported inquiry that keeps the thinking yours.",
+        "longDescription": "EXplore turns your assistant into a workspace for critical academic research and thinking. Workflows for research, search, analysis, critique, comparison, explanation, reflection, review, and final checks; thinking-method playbooks; and principles that keep evidence traceable, preserve uncertainty and disagreement, protect data and cultural authority, and keep you as the author and decision-maker. Includes optional scholarly search through OpenAlex and Semantic Scholar.",
+        "developerName": "Dafydd Jones",
+        "category": "Education & Research",
+        "websiteURL": "https://github.com/dafyddsj/explore-mode",
+        "defaultPrompt": [
+          "/explore-mode Help me frame a research question for my next assessment.",
+          "/search Find academic literature on how generative AI affects student learning.",
+          "/challenge Stress-test the main argument in my draft."
+        ]
+      }
+    }
   }
 }

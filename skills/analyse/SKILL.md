@@ -4,7 +4,6 @@ description: "Use for /analyse or when the learner wants to examine supplied mat
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Analyse

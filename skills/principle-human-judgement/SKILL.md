@@ -4,7 +4,6 @@ description: "Apply when a task reaches an interpretation, value choice, conclus
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 
