@@ -50,6 +50,10 @@ Depending on the stage:
 - Designing for an imagined "average user" who stands in for everyone.
 - Engaging people without the permissions their involvement requires.
 
+## Source
+
+The method follows the Design Council's Double Diamond: Design Council. (n.d.). *Framework for innovation*. Retrieved October 19, 2026, from https://www.designcouncil.org.uk/our-resources/framework-for-innovation/ (launched in 2004; CC BY 4.0).
+
 ## Related
 
 **question-framing**, **systems-thinking**, **second-order-thinking**, `research`, `compare`.

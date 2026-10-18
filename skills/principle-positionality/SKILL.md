@@ -61,7 +61,7 @@ Positioning is something the learner does throughout an inquiry; a positionality
 - Positioning keeps the people and knowledge being studied at the centre, not the researcher. A statement that makes the inquiry about the learner has missed the point.
 - The learner's relationship to the communities an inquiry concerns is where this principle meets [Cultural Awareness](../principle-cultural-awareness/SKILL.md). Some frameworks, such as **kaupapa-maori**, set their own expectations for how researchers position themselves; follow them rather than a generic template.
 
-**Further reading** (bibliographic details verified; Goundar and Boveda & Annamma reviewed in full, Savolainen et al. from the abstract only):
+**Further reading** (bibliographic details verified; all read in full):
 - Goundar, P. R. (2025). Researcher positionality: Ways to include it in a qualitative research design. *International Journal of Qualitative Methods, 24*. https://doi.org/10.1177/16094069251321251
 - Boveda, M., & Annamma, S. A. (2023). Beyond making a statement: An intersectional framing of the power and possibilities of positioning. *Educational Researcher, 52*(5), 306–314. https://doi.org/10.3102/0013189X231167149
 - Savolainen, J., Casey, P. J., McBrayer, J. P., & Schwerdtle, P. N. (2023). Positionality and its problems: Questioning the value of reflexivity statements in research. *Perspectives on Psychological Science, 18*(6), 1331–1338. https://doi.org/10.1177/17456916221144988

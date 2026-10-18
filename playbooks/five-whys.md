@@ -55,7 +55,7 @@ A causal chain or tree in the learner's words, with an evidence label on each li
 
 ## Source
 
-Originated in Toyota's production practice and is commonly attributed to Taiichi Ohno. Its known limitations include single-chain oversimplification, dependence on what participants already know, and stopping at symptoms or blame. This playbook is designed to counter those.
+Originated in Toyota's production practice and is commonly attributed to Taiichi Ohno: Ohno, T. (1988). *Toyota production system: Beyond large-scale production*. Productivity Press. Its known limitations include single-chain oversimplification, dependence on what participants already know, and stopping at symptoms or blame. This playbook is designed to counter those.
 
 ## Related
 
