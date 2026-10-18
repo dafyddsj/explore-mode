@@ -3,8 +3,7 @@ name: 4e-plus
 description: "Draft. Use when the learner wants to understand, design, evaluate, or reflect on how people think, learn, and make sense of things through their bodies, contexts, actions, tools, and feelings: a product, service, space, programme, process, policy, learning experience, technology, or their own practice. Applies the learner's chosen version of the 4E framework (by default 4E+: embodied, embedded, enacted, extended, plus affective) to what is offered and what people experience, and asks whether the solution can stay relevant as conditions change. When an AI system is part of the solution, also asks how thinking and responsibility are shared between people and the AI."
 metadata:
   author: Dafydd Jones
-  version: "0.3"
-  contributors: []
+  version: "0.1"
 status: draft
 ---
 

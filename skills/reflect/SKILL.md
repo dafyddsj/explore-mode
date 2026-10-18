@@ -4,7 +4,6 @@ description: "Use for /reflect or when the learner wants to examine their experi
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Reflect

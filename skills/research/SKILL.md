@@ -4,7 +4,6 @@ description: "Use for /research or when the learner wants to investigate a quest
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Research

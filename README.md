@@ -25,12 +25,21 @@ You don't need to learn them. The `/explore-mode` router picks what a task needs
 
 ## Install
 
-EXplore installs from this repository as a plugin marketplace: `dafyddsj/explore-mode`.
+EXplore installs from this repository as a plugin marketplace: `dafyddsj/explore-mode`. The same repository works in both apps. Claude reads its Claude plugin manifest, and ChatGPT and Codex read its [Agent Plugins](https://agent-plugins.org) manifest.
 
-### ChatGPT (desktop)
+### ChatGPT and Codex
 
-1. In **Settings → Plugins → Add**, add a marketplace using the source `dafyddsj/explore-mode`.
-2. Install the **EXplore** plugin. This installs all of its workflows, principles, and playbooks.
+In the ChatGPT or Codex desktop app, add a plugin marketplace with the source `dafyddsj/explore-mode`, then install **EXplore**. This installs all of its workflows, principles, and playbooks.
+
+In the Codex CLI:
+
+```bash
+codex plugin marketplace add dafyddsj/explore-mode
+```
+
+```bash
+codex plugin add explore-mode@explore-plugin
+```
 
 ### Claude
 
@@ -41,7 +50,29 @@ In Claude Code, add the marketplace and install the plugin:
 /plugin install explore-mode@explore-plugin
 ```
 
+When the plugin is enabled, Claude Code asks for two optional API keys for scholarly search (see below). Leave them blank if you don't have them.
+
 In the Claude desktop app, add the same marketplace (`dafyddsj/explore-mode`) from the app's plugin settings, then install **EXplore**.
+
+### Scholarly search (optional keys)
+
+EXplore includes a small search server for two open academic indexes, [OpenAlex](https://openalex.org) and [Semantic Scholar](https://www.semanticscholar.org). It lets the assistant search for papers, look up a DOI, and follow citations, instead of relying on what a model remembers. It needs [Node.js](https://nodejs.org) 18 or later on your computer, and an app that can run local tools, such as Claude Code or Codex. Where it can't run, EXplore falls back to ordinary web search.
+
+It works without keys, but on small shared allowances, so searches may be refused when the services are busy. Free keys give you your own allowance:
+
+- **OpenAlex:** make an account at [openalex.org](https://openalex.org/signup), then copy the key from **Settings → API key**.
+- **Semantic Scholar:** request a key through the [Semantic Scholar API page](https://www.semanticscholar.org/product/api#api-key-form). Approval can take a few days.
+
+To add them:
+
+- **Claude Code:** enter them when Claude Code asks, or later from `/plugin` by opening EXplore and configuring it. They're kept in your system's secure storage.
+- **ChatGPT, Codex, and other apps:** create the file `~/.config/explore-mode/keys.json` in a text editor, with either key left out if you don't have it, then restart the app:
+
+  ```json
+  { "openalex_api_key": "your-openalex-key", "semantic_scholar_api_key": "your-semantic-scholar-key" }
+  ```
+
+Never paste a key into a chat. Keys go only to their own service and never appear in EXplore's output. Your search terms go to OpenAlex or Semantic Scholar whether or not you use a key, so keep personal or confidential details out of them. Ask EXplore to check scholarly search status if you want to confirm what it can see.
 
 ## Get started
 
@@ -155,9 +186,12 @@ If your app works directly with a folder on your computer, run `/setup` instead.
 ```text
 skills/          workflows (including the explore-mode router) and principle-* skills
 playbooks/       methods the workflows call on when needed
+mcp/scholarly/   optional OpenAlex and Semantic Scholar search server
 FOUNDATIONS.md   why EXplore works the way it does
 VISION.md        where EXplore is going
-plugin.json      plugin manifest
+plugin.json      Agent Plugins manifest (ChatGPT, Codex, and other compatible apps)
+mcp.json         Agent Plugins MCP server declaration
+.agents/         ChatGPT and Codex marketplace
 .claude-plugin/  Claude plugin and marketplace manifests
 ```
 

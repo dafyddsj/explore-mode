@@ -4,7 +4,6 @@ description: "Use when the learner is framing, interpreting, or reflecting on an
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Reflexive Thinking

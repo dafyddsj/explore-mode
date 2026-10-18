@@ -4,7 +4,6 @@ description: "Apply when shaping any output for a learner or their audience: exp
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

@@ -4,7 +4,6 @@ description: "Apply before data is sent, uploaded, stored, or shared: prompts, u
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 
@@ -12,7 +11,7 @@ user-invocable: false
 
 Before data moves, ask whose it is, what it's for, where it's going, what happens to it there, and who decided it could go. Access to data is not permission to use or share it.
 
-**Why:** Anything put into an AI tool, whether a prompt, a document, or a pasted transcript, may be retained, used for training, or exposed to other users. Free and public tools often do all three by default. In multi-model inquiry, data moves more: to a web search, to another provider during a Basic handoff, to a subagent, or into an exported release. Learners often work with their own workplaces, colleagues, participants, and communities. One careless paste can breach a person's privacy, a participant's consent, an employer's commercial confidence, or a community's control over its knowledge, and it cannot be recalled.
+**Why:** Anything put into an AI tool, whether a prompt, a document, or a pasted transcript, may be retained, used for training, or exposed to other users. Free and public tools often do all three by default. In multi-model inquiry, data moves more: to a web search, to another provider during a handoff, to a subagent, or into an exported release. Learners often work with their own workplaces, colleagues, participants, and communities. One careless paste can breach a person's privacy, a participant's consent, an employer's commercial confidence, or a community's control over its knowledge, and it cannot be recalled.
 
 **Pattern:**
 - **Know what the destination does with data.** Before sensitive material goes anywhere, identify the provider, tool, or agent that will receive it. Check its privacy and data-use terms: retention, whether inputs are used for training, and who can see them. Switching to another provider's application, for example during a handoff, is a transfer to a different provider with different terms.
@@ -22,7 +21,7 @@ Before data moves, ask whose it is, what it's for, where it's going, what happen
 - **Respect rights in uploaded sources.** Uploading source material improves accuracy only when it doesn't breach copyright, licences, intellectual property, or data sovereignty. Material legitimately in the public domain is fine.
 - **Keep work items apart.** Each assessment or project keeps its own drafts, decisions, handoffs, and runtime state. Another item's private material, prose, or AI outputs cannot silently cross over.
 - **Carry restrictions with the data.** A delegated brief or handoff includes the data restrictions that apply to it.
-- **Credentials never enter content.** No keys or tokens in files, records, handoffs, or outputs.
+- **Credentials never enter content.** No keys or tokens in files, records, handoffs, or outputs, and never ask the learner to paste one into the conversation. Where a tool needs a key, the learner enters it in the app's settings or saves it in a local file themselves.
 - **Export on purpose.** Public releases and shared examples use selected, reviewed, public, or synthetic material. Never package a whole workspace.
 
 **Boundaries:**

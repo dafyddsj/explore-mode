@@ -4,7 +4,6 @@ description: "Use for /swarm or when a question is large enough to split: 'cover
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Swarm

@@ -4,7 +4,6 @@ description: "Use at material checkpoints (a consequential source or claim chang
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Show Me Your Work

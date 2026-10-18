@@ -4,7 +4,6 @@ description: "Apply when a claim, citation, summary, or conclusion comes from a 
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

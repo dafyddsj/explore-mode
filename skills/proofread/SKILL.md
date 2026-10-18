@@ -4,7 +4,6 @@ description: "Use for /proofread or when the learner asks for spelling, grammar,
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Proofread

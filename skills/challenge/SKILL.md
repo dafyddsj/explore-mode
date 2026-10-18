@@ -4,7 +4,6 @@ description: "Use for /challenge or when the learner wants a claim, position, ar
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Challenge

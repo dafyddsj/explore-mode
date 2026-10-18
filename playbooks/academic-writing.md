@@ -4,7 +4,6 @@ description: "Use when the learner asks for feedback on, proofreading of, or hel
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Academic Writing

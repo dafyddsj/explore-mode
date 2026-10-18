@@ -17,6 +17,33 @@
     "critical-thinking",
     "provenance",
     "multi-model",
-    "learning"
-  ]
+    "learning",
+    "scholarly-search"
+  ],
+  "mcpServers": {
+    "scholarly": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/mcp/scholarly/server.mjs"
+      ],
+      "env": {
+        "OPENALEX_API_KEY": "${user_config.openalex_api_key}",
+        "SEMANTIC_SCHOLAR_API_KEY": "${user_config.semantic_scholar_api_key}"
+      }
+    }
+  },
+  "userConfig": {
+    "openalex_api_key": {
+      "type": "string",
+      "title": "OpenAlex API key (optional)",
+      "description": "Raises EXplore's daily allowance for scholarly search through OpenAlex. Free from https://openalex.org/settings/api-key. Leave blank to search without one.",
+      "sensitive": true
+    },
+    "semantic_scholar_api_key": {
+      "type": "string",
+      "title": "Semantic Scholar API key (optional)",
+      "description": "Gives EXplore its own Semantic Scholar rate limit instead of the busy shared one. Request one free at https://www.semanticscholar.org/product/api#api-key-form. Leave blank to search without one.",
+      "sensitive": true
+    }
+  }
 }

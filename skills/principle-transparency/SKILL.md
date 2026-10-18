@@ -4,7 +4,6 @@ description: "Apply when AI makes a material contribution, when tools, models, s
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

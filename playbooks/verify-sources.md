@@ -4,7 +4,6 @@ description: "Use whenever a source, citation, quotation, statistic, or claimed 
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Verify Sources
@@ -23,7 +22,7 @@ A source is verified for a claim only when it has been found, saved, and read, a
 
 ## Method
 
-1. **Find the original.** Locate it through a DOI resolver, the publisher, a library database, or a scholarly index such as Crossref, OpenAlex, or PubMed. Confirm that the title, authors, year, venue, and identifier all match one real item. Common failures:
+1. **Find the original.** Locate it through a DOI resolver, the publisher, a library database, or a scholarly index such as Crossref, OpenAlex, or PubMed. Where EXplore's scholarly search tools are available, `openalex_get_work` and `semantic_scholar_get_paper` look up a DOI or identifier directly. A match shows the item exists, not that it supports the claim. Confirm that the title, authors, year, venue, and identifier all match one real item. Common failures:
    - Real authors with the wrong title, or a real title with the wrong year or journal.
    - A DOI that resolves to a different paper.
    - A preprint cited as the published version, or the reverse.

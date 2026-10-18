@@ -1,0 +1,20 @@
+{
+  "name": "explore-plugin",
+  "interface": {
+    "displayName": "EXplore"
+  },
+  "plugins": [
+    {
+      "name": "explore-mode",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    }
+  ]
+}

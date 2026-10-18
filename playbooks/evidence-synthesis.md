@@ -4,7 +4,6 @@ description: "Use when several sources, studies, agents, or models bear on the s
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Evidence Synthesis

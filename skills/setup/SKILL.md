@@ -1,23 +1,24 @@
 ---
 name: setup
-description: "Use for /setup or when the learner wants to start using EXplore in a folder, check an existing EXplore workspace, or add an assessment or project: 'set up EXplore here', 'add my next assessment', 'check my workspace'. Creates the workspace structure and starter files only where they are absent, never overwrites the learner's content, registers work items, and reports missing rules, briefs, or records in plain language."
+description: "Use for /setup or when the learner wants to start using EXplore in a folder, check an existing EXplore workspace, add an assessment or project, get started after installing, or add optional scholarly search keys: 'set up EXplore here', 'add my next assessment', 'check my workspace', 'how do I add my OpenAlex key'. Creates the workspace structure and starter files only where they are absent, never overwrites the learner's content, registers work items, and reports missing rules, briefs, or records in plain language."
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Setup
 
 Create, check, or extend an EXplore workspace: a folder that holds the learner's programme of work, with each assessment or project kept as a separate work item. Everything created belongs to the learner.
 
-**Boundary:** Create files only where they are absent. Never overwrite, move, or delete the learner's content. Make no changes outside the chosen folder, don't install software, and never write credentials. When a dedicated EXplore installer is available, it can do the same job. This skill is the route for hosts that work directly in a folder.
+**Boundary:** Create files only where they are absent. Never overwrite, move, or delete the learner's content. Make no changes outside the chosen folder, don't install software, and never write or ask for credentials. Workspace operations need a host that works directly in a folder.
 
 ## Choose the operation
 
 - **Create:** the folder has no `.explore/` directory.
 - **Add a work item:** the workspace exists, and the learner wants a new assessment or project.
 - **Check:** the learner asks whether the workspace is set up correctly, or something seems wrong.
+- **Welcome:** EXplore has just been installed, or the learner asks how to get started. See [After installation](#after-installation).
+- **Search keys:** the learner wants better access to academic papers, or scholarly searches are being refused. See [Scholarly search keys](#scholarly-search-keys-optional).
 
 Confirm the folder before writing anything. Show what will be created, and wait for the learner's go-ahead.
 
@@ -69,7 +70,7 @@ Confirm the folder before writing anything. Show what will be created, and wait 
    - **Work-item `MY-BOUNDARIES.md`:** add optional prompts, left blank, for the learner's limits, what they want to do themselves in this work item, and what role they want EXplore to play (for example: questioner, research assistant, challenger, or a mix). A stated role can narrow what EXplore does; it never widens what the applicable rules allow. Don't ask these during setup or pre-fill answers. The learner can fill them in or change them at any time ([Learner Agency](../principle-learner-agency/SKILL.md)).
    - **`AI-POLICY.md` templates:** say that local rules override inherited ones only for the matters they address, and that an empty file changes nothing. Leave the rules for the learner to paste in or link from official sources. Never invent a policy ([Follow Applicable Rules](../principle-follow-applicable-rules/SKILL.md)).
    - **`WORK.md`:** fill it in from the learner's answers only.
-5. **Keep private things private.** If the folder is under version control, suggest ignoring private runtime state (`.runtime/`) and any credentials files. Explain that reflections and drafts are the learner's, to share or not.
+5. **Keep private things private.** If the folder is under version control, suggest ignoring any private folders the app creates and any credentials files. Explain that reflections and drafts are the learner's, to share or not.
 6. **Report** what was created, what was already present and left alone, and the next steps: add the brief and rubric, paste in the course's AI rules, optionally fill in `MY-BOUNDARIES.md`, then start with `/explore-mode` or a workflow.
 
 ## Add a work item
@@ -87,6 +88,24 @@ Report in plain language, without changing anything unless the learner asks:
 - files EXplore expected but didn't find.
 
 Never describe the workspace as academically approved or compliant.
+
+## After installation
+
+Keep it short, and don't start creating anything.
+1. Say in a sentence or two what EXplore does, and that `/explore-mode` or a plain description of the task is the way in.
+2. If the app works in a folder, offer to set up a workspace (**Create** above). Otherwise suggest a project with their rules uploaded, as the README describes.
+3. Mention that scholarly search works without keys, and that free keys give it more room ([Scholarly search keys](#scholarly-search-keys-optional)). Leave it there unless the learner wants to set them up.
+
+## Scholarly search keys (optional)
+
+EXplore's scholarly search tools use OpenAlex and Semantic Scholar. Both work without keys, on smaller allowances. A free key gives the learner their own allowance. Call `scholarly_status`, if it's available, to see what's configured.
+
+The learner adds keys themselves. Never ask for a key in the conversation, and never write one to a file.
+- **Claude Code:** in `/plugin`, open EXplore and configure it. Claude Code asks for both keys when the plugin is enabled and stores them in the system's secure storage.
+- **Other apps:** the learner creates `~/.config/explore-mode/keys.json` in a text editor, containing `{ "openalex_api_key": "…", "semantic_scholar_api_key": "…" }`, with either key left out if they don't have it, then restarts the app. `scholarly_status` reports the exact path the tools read.
+- **Where to get keys:** OpenAlex, from the account settings at openalex.org (free); Semantic Scholar, by request through its API page (free, approval can take a few days).
+
+Say what a key changes: queries go to OpenAlex or Semantic Scholar with or without one, but a key links them to the learner's account with that service ([Protect Data](../principle-protect-data/SKILL.md)).
 
 ## Done when
 

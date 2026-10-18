@@ -4,7 +4,6 @@ description: "Apply when output could mislead, deceive, offend, or harm someone 
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

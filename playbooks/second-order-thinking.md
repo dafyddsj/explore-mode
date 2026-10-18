@@ -4,7 +4,6 @@ description: "Use when evaluating an intervention, technology, policy, or decisi
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Second-Order Thinking

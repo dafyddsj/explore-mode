@@ -4,7 +4,6 @@ description: "Use when an inquiry starts from a broad interest, a vague or loade
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Question Framing

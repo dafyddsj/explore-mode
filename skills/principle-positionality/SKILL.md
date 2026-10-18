@@ -4,7 +4,6 @@ description: "Apply when framing a question, choosing sources or methods, interp
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 user-invocable: false
 ---
 

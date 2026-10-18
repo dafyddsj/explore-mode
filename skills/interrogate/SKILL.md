@@ -4,7 +4,6 @@ description: "Use for /interrogate or when the learner wants their idea, questio
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Interrogate

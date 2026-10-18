@@ -1,6 +1,6 @@
 # EXplore Foundations
 
-**Version 1.0.** The principles, workflows, and playbooks say what EXplore does. This document says why. [VISION.md](VISION.md) says where EXplore is going, and the [README](README.md) says how to install and use it.
+**Version 0.1.** The principles, workflows, and playbooks say what EXplore does. This document says why. [VISION.md](VISION.md) says where EXplore is going, and the [README](README.md) says how to install and use it.
 
 ## Where EXplore starts
 

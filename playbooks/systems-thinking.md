@@ -4,7 +4,6 @@ description: "Use when an issue involves many interacting actors, incentives, fe
 metadata:
   author: Dafydd Jones
   version: "0.1"
-  contributors: []
 ---
 
 # Systems Thinking
